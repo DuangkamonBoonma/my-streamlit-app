@@ -8,7 +8,7 @@ import seaborn as sns
 from sklearn.preprocessing import LabelEncoder
 
 # Load the model
-model_path = 'model.pk1/model.pkl'
+model_path = 'model.pkl'
 with open(model_path, 'rb') as file:
     model = pickle.load(file)
 
